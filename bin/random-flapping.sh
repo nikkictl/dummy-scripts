@@ -1,8 +1,10 @@
+#!/bin/bash
+
 if [ $((RANDOM%2)) -eq 0 ];
 then
-    true;
     echo 'true';
+    true;
 else
-    false;
     echo 'false';
+    false;
 fi
